@@ -119,7 +119,7 @@ Merchant_Transaction_Analysis.pdf
 transactions_onboarding.csv
 dashboard.png
 MTD_Performance.png
-cohort_analysis.png
+dashboard.png
 tpv_by_country_over_time.png
 monthly_tpv.png
 monthly_tpv_mom_growth.png
