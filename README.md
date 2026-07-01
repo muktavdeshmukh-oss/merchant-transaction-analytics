@@ -15,9 +15,9 @@ Merchants are the primary customers of payment processing platforms such as Stri
 
 ![MTD Performance](MTD_Performance.png)
 
-## Merchant Cohort Analysis
+## Country Transaction Trends
 
-![Merchant Cohort Analysis](cohort_analysis.png)
+![Country TPV](tpv_by_country_over_time.png)
 
 ---
 
