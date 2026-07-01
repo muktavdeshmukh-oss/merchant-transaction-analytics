@@ -3,22 +3,21 @@
 
 ## Overview
 
-Merchants are the primary customers of payment processing platforms such as Stripe, Adyen, Square, and Checkout.com, relying on these services to securely accept and manage customer payments. Understanding merchant transaction behavior is essential for monitoring business performance, identifying growth opportunities, and supporting strategic decision-making. This project analyzes multi-country merchant transaction data using SQL, Python, and Tableau to uncover transaction trends, merchant cohorts, seasonality patterns, and business performance insights. The analysis combines data preparation, exploratory analysis, statistical trend evaluation, and interactive dashboards to deliver actionable insights that support merchant growth and operational decision-making.
-
+Merchants are the primary customers of payment processing platforms such as Stripe, Adyen, Square, and Checkout.com, relying on these services to securely accept and manage customer payments. Understanding merchant transaction behavior is essential for monitoring business performance, identifying growth opportunities, and supporting strategic decision-making. This project analyzes multi-country merchant transaction data using SQL, Python, and Tableau to uncover transaction trends, merchant cohorts, seasonality patterns, and business performance insights. The analysis combines data preparation, exploratory data analysis, statistical trend evaluation, and interactive dashboards to generate actionable insights that support merchant growth, operational planning, and business decision-making
 
 ---
 
-## Dashboard
+## Interactive Dashboard
 
 ![Dashboard](dashboard.png)
 
-## Country Transaction Trends
+## Month-to-Date Performance
 
-![Country TPV](tpv_by_country_over_time.png)
+![MTD Performance](MTD_Performance.png)
 
-## Seasonality Analysis
+## Merchant Cohort Analysis
 
-![Monthly TPV](monthly_tpv.png)
+![Merchant Cohort Analysis](cohort_analysis.png)
 
 ---
 
@@ -47,7 +46,7 @@ The analysis includes:
 * Transaction amounts
 * Merchant onboarding dates
 * Country information
-
+*Note: The original dataset is not included in this repository due to size constraints.*
 ---
 
 ## Tech Stack
@@ -117,9 +116,10 @@ transactions_analysis.sql
 merchant_analytics.py
 Merchant_Analytics_Dashboard.twbx
 Merchant_Transaction_Analysis.pdf
-new_transactions.csv
 transactions_onboarding.csv
 dashboard.png
+MTD_Performance.png
+cohort_analysis.png
 tpv_by_country_over_time.png
 monthly_tpv.png
 monthly_tpv_mom_growth.png
@@ -134,23 +134,22 @@ heatmap_hour_day.png
 
 * SQL (Window Functions, Joins, CTEs)
 * Python
+* Tableau Dashboarding
 * Pandas
 * Data Cleaning & Transformation
 * Exploratory Data Analysis
 * Cohort Analysis
 * Time Series Analysis
 * Seasonality Analysis
-* Tableau Dashboarding
-* Business Storytelling
 * Data Visualization
+* Business Storytelling
 * Data-Driven Decision Making
 
 ---
-
 ## Author
 
 **Mukta Deshmukh**
 
-Data Analytics | Product Analytics | Business Intelligence
+Data Analytics | Product Analytics | Business Intelligence | FinTech Merchant Analytics
 
-**Core Technologies:** SQL • Python • Tableau • PostgreSQL • Git
+**Tools:** SQL • Python • Tableau • PostgreSQL • Git
